@@ -18,7 +18,7 @@ math score	- Marks secured by a student in Mathematics
 
 Dataset Source Link : https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data
 
-Steps followed in the project:
+## Steps followed in the project:
 
 Data Ingestion :
 
