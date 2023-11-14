@@ -20,11 +20,11 @@ Dataset Source Link : https://www.kaggle.com/datasets/spscientist/students-perfo
 
 ## Steps followed in the project:
 
-Data Ingestion :
+1. Data Ingestion :
 
 The input data is read as csv file and the data is split into training and testing sets and saved as csv files.
 
-Data Transformation :
+2. Data Transformation :
 
 Different transformations are applied depending on the nature of variables: Numerical, Categorical, Ordinal
 
@@ -35,16 +35,16 @@ These transformations are applied over the numerical and categorical variables a
 
 This preprocessor object is saved as a pickle file for future use.
 
-Model Training :
+3. Model Training :
 
 GridSearchCV is used to find the optimal values of the hyperparameters of different mdoels like Linear regression, Decision Tree, Random Forest, AdaBoost, CatBoost. 
 The best model is selected which gave the highest r2_score and was used to predict the target value.
 This model object is saved as a pickle file for future use.
 
-Prediction Pipeline :
+4. Prediction Pipeline :
 
 This pipeline is used to get the input user data, convert data to dataframe and make prediction using preprocessor and model pickle files.
 
-Flask App creation :
+5. Flask App creation :
 
 A simple Flask app is created with UI to get the input user data and predict the final math score.
