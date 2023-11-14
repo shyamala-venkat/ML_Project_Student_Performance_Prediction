@@ -1,6 +1,6 @@
 ##  ML Project - Student Performance Prediction
 
-The dataset The goal is to predict the math score of students (Regression Analysis).
+The goal is to predict the math score of students (Regression Analysis).
 
 There are 7 independent variables:
 
