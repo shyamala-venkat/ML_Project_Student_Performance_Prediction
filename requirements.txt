@@ -7,4 +7,5 @@ catboost
 xgboost
 mlxtend
 dataclasses
+Flask
 #-e .
